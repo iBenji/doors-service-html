@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазин</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header class="header center">
+        <div class="header__top">
+            <a href="./index.html"><img class="header__top--logo" src="./img/png/logo.png" alt="Посейдон Двери"></a>
+            <span class="header__top--slogan">Доступные двери по доступным ценам</span>
+            <div class="header__top--buttons">
+                <a href="#" class="header__top--icon"><i class="fa-brands fa-vk fa-2xl" style="color: #000000;"></i></a>
+                <a href="#" class="header__top--icon"><i class="fa-brands fa-square-whatsapp fa-2xl"
+                        style="color: #000000;"></i></a>
+                <a href="tel:+788005553535" class="header__top--button --tel">Свяжитесь с нами</a>
+                <a href="#" class="header__top--button">Прайс лист</a>
+            </div>
+        </div>
+    </header>
+    <section class="header__bottom">
+        <ul class="header__list">
+            <li class="header__item">
+                <a href="./index.html" class="header__item-buttons">Главная</a>
+            </li>
+            <li class="header__item">
+                <a href="#" class="header__item-buttons">Каталог</a>
+            </li>
+            <li class="header__item">
+                <a href="#" class="header__item-buttons">О нас</a>
+            </li>
+            <li class="header__item">
+                <a href="#" class="header__item-buttons">Оплата</a>
+            </li>
+            <li class="header__item">
+                <a href="#" class="header__item-buttons">Доставка</a>
+            </li>
+            <li class="header__item">
+                <a href="#" class="header__item-buttons">Возврат и обмен</a>
+            </li>
+            <li class="header__item">
+                <a href="#" class="header__item-buttons">Гарантии</a>
+            </li>
+            <li class="header__item">
+                <a href="#" class="header__item-buttons">Отзывы</a>
+            </li>
+        </ul>
+        <div class="header__bottom--previews">
+            <div class="swiper mySwiper autoplay-delay= " 2500">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./img/jpg/hphoto1.jpg" alt="Фото Nova">
+                        <div class="swiper-slide-textcontent">
+                            <h1 class="swiper-slide-title">NOVA</h1>
+                            <span class="swiper-slide-subtitle">Привлекательный внешний вид и практичность —
+                                межкомнатные двери в эмали.</span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/jpg/hphoto2.jpg" alt="Фото Lucky">
+                        <div class="swiper-slide-textcontent">
+                            <h1 class="swiper-slide-title">LUCKY</h1>
+                            <span class="swiper-slide-subtitle">Четкие линии, эргономичный дизайн – это
+                                отличительные черты данной модели. Однотонная окраска, простые фактуры и минимум
+                                элементов декора.</span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/jpg/hphoto3.jpg" alt="Фото Filo">
+                        <div class="swiper-slide-textcontent">
+                            <h1 class="swiper-slide-title">FILO</h1>
+                            <span class="swiper-slide-subtitle">Четкие линии, эргономичный дизайн и реечные
+                                элементы декора выгодно выделяют эти двери в скрытом коробе, среди
+                                остальных.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+    <main class="main">
+        <section class="main__doors">
+            <div class="main__doors--block">
+                <h2 class="main__doors--title">Двери простые</h2>
+                <img src="./img/jpg/doors.jpg" alt="Дверь простая">
+                <a class="main__doors--subtitle" href="#">Посмотреть</a>
+            </div>
+            <div class="main__doors--block main__doors--block--bg">
+                <h2 class="main__doors--title">Двери остекленные</h2>
+                <img src="./img/jpg/doorsteklo.jpg" alt="Дверь остекленная">
+                <a class="main__doors--subtitle" href="#">Посмотреть</a>
+            </div>
+            <div class="main__doors--block">
+                <h2 class="main__doors--title">Двери под дерево</h2>
+                <img src="./img/jpg/doorwood.jpg" alt="Дверь под дерево">
+                <a class="main__doors--subtitle" href="#">Посмотреть</a>
+            </div>
+            <div class="main__doors--block main__doors--block--bg">
+                <h2 class="main__doors--title">Двери офисные</h2>
+                <img src="./img/jpg/dooroffice.jpg" alt="Дверь офисная">
+                <a class="main__doors--subtitle" href="#">Посмотреть</a>
+                <div class="main__doors--badge">Новинка</div>
+            </div>
+        </section>
+        <section class="main__recieve">
+            <h3 class="main__doors--title">План получения вашего заказа</h3>
+            <div class="main__recieve--block">
+                <div class="main__recieve--content">
+                    <i class="fa-solid fa-user-pen fa-2xl" style="color: #000;"></i>
+                    <p class="main__recieve--subtitle">Вы оставляете заявку или звоните нам</p>
+                </div>
+                <div class="main__recieve--content">
+                    <i class="fa-sharp fa-solid fa-headset fa-2xl" style="color: #000;"></i>
+                    <p class="main__recieve--subtitle">Наши менеджеры консультируют Вас</p>
+                </div>
+                <div class="main__recieve--content">
+                    <i class="fa-sharp fa-solid fa-pen-ruler fa-2xl" style="color: #000;"></i>
+                    <p class="main__recieve--subtitle">Выезд специалиста на замер</p>
+                </div>
+                <div class="main__recieve--content">
+                    <i class="fa-sharp fa-solid fa-door-open fa-2xl" style="color: #000;"></i>
+                    <p class="main__recieve--subtitle">Изготавливаем Вашу дверь</p>
+                </div>
+                <div class="main__recieve--content">
+                    <i class="fa-solid fa-truck fa-2xl" style="color: #000;"></i>
+                    <p class="main__recieve--subtitle">Доставляем и устанавливаем</p>
+                </div>
+            </div>
+        </section>
+        <section class="advantage center">
+            <h4 class="main__doors--title">Приемущества</h4>
+            <div class="advantage__block">
+                <div class="advantage__block--content">
+                    <i class="fa-solid fa-eye fa-2xl" style="color: #000000;"></i>
+                    <h4 class="advantage__block--title">Внешний вид</h4>
+                    <p class="advantage__block--subtitle">Современный модельный ряд, модные цвета, покрытия.</p>
+                    <div class="advantage__block--spacer"></div>
+                </div>
+                <div class="advantage__block--content">
+                    <i class="fa-solid fa-medal fa-2xl" style="color: #000000;"></i>
+                    <h4 class="advantage__block--title">Качество</h4>
+                    <p class="advantage__block--subtitle">Использование качественных материалов в работе
+                        производства. Полная подготовка дверей под установку. Специализация на покрытии SOFT и
+                        эмали.</p>
+                </div>
+                <div class="advantage__block--content">
+                    <i class="fa-sharp fa-solid fa-money-bills fa-2xl" style="color: #000000;"></i>
+                    <h4 class="advantage__block--title">Доступные цены</h4>
+                    <p class="advantage__block--subtitle">Мы открыты для разных проектов. Удовлетворим любую
+                        фантазию покупателя, возьмемся за изготовление нестандартных моделей.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__block">
+            <ul class="header__list">
+                <li class="header__item">
+                    <a href="./index.html" class="header__item-buttons">Главная</a>
+                </li>
+                <li class="header__item">
+                    <a href="#" class="header__item-buttons">Каталог</a>
+                </li>
+                <li class="header__item">
+                    <a href="#" class="header__item-buttons">О нас</a>
+                </li>
+                <li class="header__item">
+                    <a href="#" class="header__item-buttons">Оплата</a>
+                </li>
+                <li class="header__item">
+                    <a href="#" class="header__item-buttons">Доставка</a>
+                </li>
+                <li class="header__item">
+                    <a href="#" class="header__item-buttons">Возврат и обмен</a>
+                </li>
+                <li class="header__item">
+                    <a href="#" class="header__item-buttons">Гарантии</a>
+                </li>
+                <li class="header__item">
+                    <a href="#" class="header__item-buttons">Отзывы</a>
+                </li>
+            </ul>
+            <div class="footer__block--text">
+                <p class="footer__block--subtitle"><i class="fa-solid fa-hand-holding-dollar fa-xl"
+                        style="color: #ffffff;"></i>При полной предоплате скидка 10%</p>
+                <p class="footer__block--subtitle"><i class="fa-sharp fa-solid fa-door-open fa-xl"
+                        style="color: #ffffff;"></i>Двери от производителя</p>
+                <p class="footer__block--subtitle"><i class="fa-sharp fa-solid fa-pen-ruler fa-xl"
+                        style="color: #ffffff;"></i>Бесплатный замер и дизайн</p>
+
+                    <a href="tel:+788005553535" class="header__top--button --tel">Свяжитесь с нами</a>
+                    <a href="#" class="header__top--button">Прайс лист</a>
+
+            </div>
+
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/ec9ebfd474.js" crossorigin="anonymous"></script>
+    <script src="./javascript/app.js"></script>
+</body>
+
+</html>
