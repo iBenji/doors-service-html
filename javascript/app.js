@@ -1,5 +1,5 @@
 const headerPhoto = document.querySelector('.header__top');
-const photos = ['./img/jpg/hhphoto1.jpg', './img/jpg/hhphoto2.jpg']; // Здесь указывайте пути к фотографиям
+const photos = ['../img/jpg/hhphoto1.jpg', '../img/jpg/hhphoto2.jpg']; // Здесь указывайте пути к фотографиям
 
 var currentPhotoIndex = 0;
 
